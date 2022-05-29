@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
 body {
-    background: #b3ffff;
+    background: #9a90d6;
     min-height: 50px;
     padding: 1rem;
     box-sizing: border-box;
@@ -9,10 +11,86 @@ body {
     text-align: center;
     font-size: 130%;
     color: rgb(120, 120, 120);
-    font-family: 'Gochi hand', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
 .heading_img {
     width: 20%;
 }
 
+.container {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 250px; 
+    background: #f1f5f8;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading_title {
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: #00ffc3;
+    font-size: 1.5rem;
+}
+
+.form_label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form_input {
+    box-sizing: border-box;
+    background-color: transparent;   
+    padding: 0.7rem;
+    border-bottom-left-radius: 15px 3px;
+    border-bottom-left-radius:3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #ea95e0;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1rem;
+    color: rgb(63, 62, 65);
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    transform-origin: center;
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgb(63, 62, 65);
+    background-color: #00ffc3;
+}
+
+.button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+.button:active, .button:focus {
+  transform: translateX(4px);
+  padding-bottom: 0px;
+  outline: 0;
+}
+
+.toDoList {
+    text-align: left;
+}
